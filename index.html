@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh Sách</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4ff;
+            margin: 0;
+            padding: 20px;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* sửa rbga thành rgba */
+            width: 200px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 10px 0;
+            font-size: 1.2em; /* sửa 1.2 em thành 1.2em */
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Danh sách nhân vật</h1>
+
+<div class="card-container">
+    <a href="#" class="card">
+        <img src="images/py.jpg" alt="Phong Yên"> <!-- sửa src thành đúng đường dẫn -->
+        <h3>Phong Yên</h3>
+    </a>
+</div>
+
+</body>
+</html>
